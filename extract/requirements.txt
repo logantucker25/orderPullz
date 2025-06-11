@@ -1,0 +1,11 @@
+pip install openai pymupdf
+
+python3 -m venv venv
+
+source venv/bin/activate
+
+pip install PyMuPDF openai faiss-cpu pandas tqdm
+
+pip install pinecone-client sentence-transformers requests pandas tqdm
+
+pip install pinecone
